@@ -1,0 +1,50 @@
+/* Página toda */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #667eea;   /* cor de fundo */
+    text-align: center;          /* centraliza os textos */
+}
+
+/* Título */
+h1 {
+    color: white;
+}
+
+/* Os 3 blocos brancos */
+.cartao {
+    background-color: white;
+    width: 300px;                /* largura do bloco */
+    margin: 20px auto;           /* "auto" centraliza o bloco na tela */
+    padding: 20px;               /* espaço dentro do bloco */
+    border-radius: 12px;         /* cantos arredondados */
+}
+
+/* Todos os botões */
+button {
+    background-color: #764ba2;
+    color: white;
+    border: none;                /* tira a borda padrão */
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;             /* mãozinha ao passar o mouse */
+}
+
+/* Fundo escuro do pop-up */
+#popup {
+    display: none;               /* ESCONDIDO no início */
+    position: fixed;             /* fica por cima de tudo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);   /* preto transparente */
+}
+
+/* Caixa branca do pop-up */
+.caixa {
+    background-color: white;
+    width: 300px;
+    margin: 200px auto;          /* 200px do topo, centralizada */
+    padding: 20px;
+    border-radius: 12px;
+}
